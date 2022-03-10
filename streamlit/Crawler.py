@@ -67,8 +67,6 @@ def get_account_balance(address):
    #&sort=asc
    #&apikey=YourApiKeyToken'''
 
-
-#put startblock here too next to address
 def get_transactions(address, startblock):
 
     # Get latest block number
@@ -137,7 +135,5 @@ def get_transactions(address, startblock):
     st.title("Address balance chart from specified block")
     st.line_chart(balances)
 
-get_transactions(address, 11000000)
-
-# Get last price of ETH - Convert it to USD!!
+get_transactions(address, 12000000)
 
